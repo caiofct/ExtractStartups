@@ -7,7 +7,7 @@ var stream = fs.createWriteStream("result.csv");
 // Base url from where to get the data
 var base_url = "http://startupbase.abstartups.com.br";
 // The first page from which we need to extract the data
-var loc = "http://startupbase.abstartups.com.br/startups?page=119";
+var loc = "http://startupbase.abstartups.com.br/startups";
 var csv_string = "";
 // CSV header
 csv_string = "Nome;Data Fundação;Cidade;Estado;Email;Site;Mercado;Momento;Modelo de negócios;Descrição\n"
